@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*****GENERAL*****/
+
+.flex {
+    display: flex;
+}
+
+.leftAndRightPadding {
+    padding: 0 1rem ;
+}
+
+/*****COLOR*****/
+
+.blueBg {
+    background-color: #0084fd;
+}
+
+.whiteColor {
+    color: #ffffff;
+}
+
+
+/*****HEADER*****/
+
+nav {
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
