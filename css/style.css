@@ -80,7 +80,7 @@
 
 nav {
     height: 5rem;
-    width: 29rem;
+    width: calc(100% / 1);
     justify-content: space-between;
     align-items: center;
     margin-bottom: 3.125rem;
@@ -116,22 +116,86 @@ nav {
     justify-content: center;
     align-items: center;
     line-height: 25px;
+    text-align: center;
 }
 
 /*PLANNING SECTION*/
 
-.purpleConteiner {
+.bigPurpleConteiner {
     height: 87.5rem;
-    width: 29rem;
+    width: calc(100% / 1);
     flex-direction: column;
     margin-top: 5rem;
 }
 
 .planningBox {
+    height: 40.3125rem;
+    width: 19.5rem;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    line-height: 25px;
+    text-align: center;
 }
 
 .planningImg {
     width: 19.5rem;
 }
+
+/*TESTIMONIALS SECTION*/
+
+.testimonialsConteiner {
+    height: 135.375rem;
+    width: calc(100% / 1);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 3.75rem;
+}
+
+.purpleConteiner {
+    height: 31.25rem;
+    width: 19.5rem;
+    flex-direction: column;
+}
+
+.testimonialBox {
+    flex-direction: column;
+    height: 31.25rem;
+    width: 312px;
+   justify-content: center;
+   margin-top: 2.5rem;
+}
+
+.testimonialImg1 {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 100%;
+    background: #eee no-repeat center;
+    background-size: cover;
+    background-image: url(../img/testimonial1.jpg);
+    align-self: center;
+}
+
+.testimonialImg2 {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 100%;
+    background: #eee no-repeat center;
+    background-size: cover;
+    background-image: url(../img/testimonial2.jpg);
+    align-self: center;
+}
+
+.testimonialImg3 {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 100%;
+    background: #eee no-repeat center;
+    background-size: cover;
+    background-image: url(../img/testimonial3.jpg);
+    align-self: center;
+}
+
+/*BENEFITS SECTION*/
+
