@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*****GENERAL*****/
@@ -14,21 +15,102 @@
     padding: 0 1rem ;
 }
 
+.bottomMargin {
+    margin-bottom: 1.5625rem;
+}
+
+.lightBorderRadius {
+    border-radius: 7%;
+}
+
+.conteiner {
+    align-items: center;
+}
+ 
+.button {
+    border: none;
+    border-radius: 5%;
+}
+
+/*****FONT*****/
+
+.mediumFontSize {
+    font-size: 25px;
+}
+
+
+.bigFontSize {
+    font-size: 65px;
+}
+
 /*****COLOR*****/
 
 .blueBg {
     background-color: #0084fd;
 }
 
+.lightBlueBg {
+    background-color: #b5ddff;
+}
+
+.purpleBg {
+    background-color: #9792e4;
+}
+
+.blueColor {
+    color: #0084fd;
+}
+
 .whiteColor {
     color: #ffffff;
 }
 
+.greyColor {
+    color: #5b6e7e;
+}
+
+.purpleColor {
+    color: #9792e4;
+}
 
 /*****HEADER*****/
 
 nav {
     height: 5rem;
+    width: 29rem;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 3.125rem;
+}
+
+
+/*****MAIN*****/
+
+/*APP SECTION*/
+
+.lightBlueConteiner {
+    flex-direction: column;
+}
+
+.bigLightBlueConteiner {
+    height: 37.5rem;
+    width: 19.6875rem;
+    flex-direction: column;
+    background-image: url(../img/phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.littleLightBlueConteiner {
+    height: 22.5rem;
+    width: 19.6875rem;
+
+}
+
+.lightBlueBox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
 }
