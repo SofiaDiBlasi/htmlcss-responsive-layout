@@ -27,9 +27,8 @@
     align-items: center;
 }
  
-.button {
+.noBorderButton {
     border: none;
-    border-radius: 5%;
 }
 
 /*****FONT*****/
@@ -55,6 +54,10 @@
 
 .purpleBg {
     background-color: #9792e4;
+}
+
+.whiteBg {
+    background-color: #ffffff;
 }
 
 .blueColor {
@@ -113,4 +116,22 @@ nav {
     justify-content: center;
     align-items: center;
     line-height: 25px;
+}
+
+/*PLANNING SECTION*/
+
+.purpleConteiner {
+    height: 87.5rem;
+    width: 29rem;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.planningBox {
+    flex-direction: column;
+    align-items: center;
+}
+
+.planningImg {
+    width: 19.5rem;
 }
